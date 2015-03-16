@@ -1,0 +1,56 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:fillViewport="true"
+    android:background="@drawable/formm"
+    >
+    <AbsoluteLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+ >
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:id="@+id/imageView"
+        android:background="@drawable/logo"/>
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="385dp"
+            android:layout_height="wrap_content"
+            android:text=" Go to Nutrition Consultation Form "
+            android:layout_x="-5dp"
+            android:layout_y="160dp"
+            android:background="#009700" />
+
+        <Button
+            android:layout_width="392dp"
+            android:layout_height="wrap_content"
+            android:text="Personal Nutrition Coaching (PNC)"
+            android:id="@+id/pnc"
+            android:layout_x="-12dp"
+            android:layout_y="298dp"
+            android:background="#009700" />
+
+        <Button
+            android:layout_width="402dp"
+            android:layout_height="wrap_content"
+            android:text="Cooking Demos"
+            android:id="@+id/cooking"
+            android:layout_x="-12dp"
+            android:layout_y="597dp"
+            android:background="#009700" />
+
+        <Button
+            android:layout_width="390dp"
+            android:layout_height="wrap_content"
+            android:text="Grocery Store Tours"
+            android:id="@+id/Grocery"
+            android:layout_x="-4dp"
+            android:layout_y="449dp"
+            android:background="#009700" />
+
+    </AbsoluteLayout>
+</ScrollView>
